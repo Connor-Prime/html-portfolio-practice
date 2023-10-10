@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Parisienne&display=swap');
+
 .poem{
     font-style: italic;
     font-size: 2em;
@@ -7,6 +9,12 @@
     .poem{
         font-size: 1.5em;
     }
+}
+
+.flex-container>article>h2::first-letter{
+    font-size: 3em;
+    font-style: italic;
+    font-family: 'Parisienne', cursive;
 }
 
 @media screen and (max-width: 500px) {
