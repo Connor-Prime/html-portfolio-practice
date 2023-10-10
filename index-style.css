@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color: rgb(226, 43, 86);
+    background-color: rgb(255, 65, 65);
     padding-bottom: 20px;
 }
 
@@ -40,18 +40,31 @@ header{
     width: 100vw;
 }
 
-body{
-    background-color: black;
+.flex-container{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
 }
 
-article{
+.flex-container>article{
     margin: auto;
     margin-top: 20px;
-    width: 75vw;
+    width: 50vw;
     background-color: aliceblue;
     padding: 15px 15px 10px 15px;
     border-radius: 5%;
 }
+
+body{
+    background-image: linear-gradient(blue,black);
+    margin-left: 0pt;
+    margin-right: 0px;
+}
+
+
 
 .article-image{
     display: block;
@@ -69,6 +82,10 @@ article{
         display: list-item;
     }
 
+    .flex-container{
+        row-gap: 30;
+    }
+
     .article-image{
         display: block;
         margin-left: auto;
@@ -76,6 +93,10 @@ article{
         border-radius: 50%;
         width: 150px;
         height: 150px;
+    }
+
+    .flex-container>article{
+        width: 75vw;
     }
     
   }
