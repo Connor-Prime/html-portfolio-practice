@@ -11,7 +11,16 @@ header{
     padding-bottom: 20px;
 }
 
-.navlinks{
+footer{
+    padding: 10px;
+    background-color: rgb(171, 9, 165);
+}
+
+footer>a{
+    color: aqua;
+}
+
+.link-bar>a{
     background-color: aqua;
     padding: 10px 10px 10px 10px;
     margin-left: 10px;
@@ -47,6 +56,8 @@ header{
     gap: 40px;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 20px;
+
 }
 
 .flex-container>article{
@@ -76,8 +87,8 @@ body{
     border: 5px solid black;
 }
 
-@media screen and (max-width: 600px) {
-    .navlinks{
+@media screen and (max-width: 650px) {
+    .link-bar>a{
         margin-top: 30px;
         display: list-item;
     }

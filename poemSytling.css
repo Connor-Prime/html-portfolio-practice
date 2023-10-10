@@ -1,0 +1,30 @@
+.poem{
+    font-style: italic;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 750px) {
+    .poem{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .poem{
+        font-size: 1.2em;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .poem{
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .poem{
+        font-size: .9em;
+    }
+}
